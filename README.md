@@ -4,4 +4,4 @@ ZORIN
 3. Jesica – 2331137
 4. Viorencia Carista – 2331155
 5. Lisa Natalia – 2331162
-6. Eka Meriyadi - 2331011
+6. Eka Meriyadi - 2331011 (Kelompok SBD)
