@@ -1,0 +1,108 @@
+
+/* Input */
+.productForm{
+    width: 45vw;
+    justify-self: center;
+    justify-content: center;
+    border: 2px solid blue;
+    padding: 3rem;
+    margin-top: -5rem;
+    margin-bottom: 3rem;
+}
+
+#formBest{
+    display: none;
+}
+
+#formAnother{
+    display: none;
+}
+
+.form-container{
+    justify-content: center;
+    display: grid;
+    width: 100vw;
+}
+
+.inputForm{
+    margin-top: 2rem;
+    display: grid;
+    justify-content: center;
+    width: 40vw;
+}
+
+input{
+    color: rgb(255, 255, 255);
+    width: 40vw;
+    height: 1.5rem;
+    border-radius: 0.5rem;
+    background-color: #18164b;
+    justify-content: center;
+    border: 1px solid gray;
+    transition: 1s;
+    margin-top: 1rem;
+}
+
+input::placeholder{
+    color: white;
+}
+
+button{
+    margin-top: 2rem;
+    width: 5vw;
+}
+
+input[type="file"]{
+    clip: rect(0, 0, 0, 0);
+}
+
+/* Add Button */
+#addBest{
+    background-color: green;
+    width: 7vw;
+    font-size: 1rem;
+    padding: 0.5rem, 1rem, 0.5rem, 1rem;
+    position: absolute;
+    left: 50%;
+    margin-top: -5rem;
+    transform: translate(-50%, -50%);
+    transition: 1s;
+    display: block;
+}
+
+#addBest:hover{
+    background-color: rgb(0, 194, 0);
+}
+
+#addAnother{
+    background-color: green;
+    width: 7vw;
+    font-size: 1rem;
+    padding: 0.5rem, 1rem, 0.5rem, 1rem;
+    position: absolute;
+    left: 50%;
+    margin-top: -5rem;
+    transform: translate(-50%, -50%);
+    transition: 1s;
+    display: block;
+}
+
+#addAnother:hover{
+    background-color: rgb(0, 194, 0);
+}
+
+#submitBest{
+    margin-top: 0.5rem;
+}
+
+#submitBest:hover{
+    background-color: rgb(0, 194, 0);
+}
+
+#Cancel{
+    margin-top: 0.5rem;
+}
+
+#Cancel:hover{
+    background-color: red;
+}

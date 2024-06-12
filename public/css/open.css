@@ -1,0 +1,39 @@
+.ratingContainer{
+    border: 2px solid #12f7ff;
+    margin: 6px 6px 6px 1rem;
+    border-radius: 1rem;
+    width: 80vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ratingContainer div{
+    margin-left: 0.5rem;
+}
+
+.deletos{
+    background:#12f7ff;
+    height: 3rem;
+    width: 4rem;
+    justify-content: center;
+    color:#1d002c;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: all .3s ease;
+    font-weight: 500;
+    display: flex;
+    right: 3px;
+}
+
+.deletos:hover{
+    box-shadow: 0 0 1rem #ffae00;
+    border: 2px solid #ff3333;
+    background:#ff3300;
+    color:#f0feff;
+}
+
+.buttonContainer{
+    align-items: center;
+    display: grid;
+}

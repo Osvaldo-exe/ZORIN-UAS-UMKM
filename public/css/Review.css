@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+
+.ReviewCardContainer{
+    display: flex;
+}
+
+.ReviewCard img{
+    width: 10rem;
+    padding: .5rem 1rem;
+}
+
+.ReviewCard{
+    background:#121137;
+}
+
+.ReviewCardContainer{
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border:2px solid #12f7ff;
+    width: 90vw;
+    justify-self: center;
+    border-radius: 1rem;
+}
+
+.stars {
+    color: #f5a623;
+}
+
+.star-rating {
+    display: flex;
+    justify-content: center;
+    align-items:first baseline;
+    margin-bottom: 10px;
+    margin-left: 2rem;
+}
+
+.rating-label {
+    margin-right: 10px;
+}
+
+.star-rating .stars {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.star-rating input {
+    display: none;
+}
+
+.star-rating label {
+    font-size: 24px;
+    color: #ccc;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.star-rating input:checked ~ label,
+.star-rating label:hover ~ label,
+.star-rating label:hover{
+    color: #f5a623;
+}
+
+.rating-percentage {
+    color: #888;
+    margin-bottom: 20px;
+}
+
+.rating-score {
+    font-size: 2em;
+    color: #f5a623;
+}
+
+.rating-label {
+    font: 1rem;
+}
+
+.comment-box {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    color: #26355D;
+}
+
+.submit-comment {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.starContainer{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+option{
+    background-color: #2d01be;
+    ;
+}
+
+select{
+    background-color: #324a8d;
+    color: white;
+    width: 10rem;
+    border-radius: 2px;
+}
+
+select option{
+    height: 2rem;
+    transition: 0.5s;
+}
